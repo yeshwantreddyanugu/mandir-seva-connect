@@ -14,7 +14,7 @@ export default defineConfig(({ mode }) => ({
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
-   base: '/mandir-seva-connect/',
+   base: './',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
